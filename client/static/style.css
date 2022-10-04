@@ -1,0 +1,30 @@
+#login {
+    background-color: #202124;
+}
+
+#inputAccount {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-account {
+    margin-block: 10px;
+
+    width: 150px;
+    height: 24px;
+
+    border: none;
+
+    background-color: #303134;
+    color: white;
+
+    border-radius: 15px;
+    border-style: groove;
+    border-color: bisque;
+}
+
+.input-account::placeholder {
+    text-align: center;
+}
